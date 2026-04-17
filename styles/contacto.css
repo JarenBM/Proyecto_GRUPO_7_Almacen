@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    width: 50%;
+    margin: auto;
+    border: rgb(8, 155, 240) solid 2px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(52, 126, 253);
+    color: white;
+    font-size: small;
+    border-radius: 5px;
+}
