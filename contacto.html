@@ -1,38 +1,46 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Contacto</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/contacto.css" />
   </head>
+
   <body>
-    <h1>Contáctanos</h1>
-    <div>
-      <form>
-        <label for="nombre">Nombre:</label><br />
-        <input
-          type="text"
-          id="nombre"
-          name="nombre"
-          placeholder="Ingresar nombre"
-        /><br />
-        <label for="email">Correo electrónico:</label><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="correo@ejemplo.com"
-        /><br />
-        <label for="mensaje">Mensaje:</label><br />
-        <textarea
-          id="mensaje"
-          name="mensaje"
-          placeholder="Ingresar mensaje"
-        ></textarea
-        ><br />
-        <input type="submit" value="Enviar" />
-      </form>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="main.html">Inicio</a></li>
+          <li><a href="gestion.html">Gestión</a></li>
+          <li><a href="publicidad.html">Publicidad</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contáctanos</h1>
+
+      <section class="contacto-box">
+        <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Ingresar nombre" />
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" placeholder="correo@ejemplo.com" />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" placeholder="Ingresar mensaje"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
       <p><a href="main.html">Volver al menú principal</a></p>
-    </div>
+    </footer>
   </body>
 </html>
