@@ -3,11 +3,13 @@
   <head>
     <title>Contacto</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles/contacto.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="contacto.css" />
   </head>
   <body>
     <h1>Contáctanos</h1>
-    <div>
+    <div class="container">
+      <div class="contact-form">
       <form>
         <label for="nombre">Nombre:</label><br />
         <input
@@ -32,7 +34,19 @@
         ><br />
         <input type="submit" value="Enviar" />
       </form>
-      <p><a href="main.html">Volver al menú principal</a></p>
+      <p><a class="btn_home" href="main.html">Volver al menú principal</a></p>
+    </div>
+    <div class="contact-info">
+      <h2>Información de contacto</h2>
+      <p>Teléfono: +52 987 456 123</p>
+      <p>Email: contacto@ejemplo.com</p>
+      <p>Dirección: Calle Real 123, Huancayo, Perú</p>
+      <ul class="social">
+        <li><a href="https://www.facebook.com" class="facebook"></a></li>
+        <li><a href="https://www.twitter.com" class="twitter"></a></li>
+        <li><a href="https://www.instagram.com" class="instagram"></a></li>
+      </ul>
+    </div>  
     </div>
   </body>
 </html>
