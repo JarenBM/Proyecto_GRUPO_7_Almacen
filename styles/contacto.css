@@ -2,9 +2,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
-div {
-    width: 50%;
+div.container {
+    width: 75%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-form {
+    width: 70%;
+    margin: auto;
+    border: rgb(8, 155, 240) solid 2px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.contact-info {
+    width: 22%;
+    margin: auto;
+    margin-top: 20px;
     border: rgb(8, 155, 240) solid 2px;
     border-radius: 5%;
     padding: 20px;
@@ -29,11 +47,53 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-a {
+.btn_home {
     display: inline-block;
     padding: 15px;
     background-color: rgb(52, 126, 253);
     color: white;
     font-size: small;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn_home:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.social li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: 60%; /*esto se modifica si usamos un logo*/
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.social li a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
